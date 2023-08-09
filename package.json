@@ -5,15 +5,13 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html --out-dir=build",
-    "predeploy": "npm run build",
-    "deploy": "vercel --prod"
+    "build": "parcel build index.html --out-dir=build"
+    
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.5",
-    "vercel": "^31.2.3"
+    "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
     "leaflet": "^1.9.4"
